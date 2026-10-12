@@ -165,8 +165,8 @@ export function CapabilitiesSection() {
         <SectionHeading
           id="capabilities-title"
           eyebrow="What I bring"
-          title="From first question to shipped experience."
-          description="A systems-minded practice grounded in user needs, product outcomes, and close collaboration."
+          title="Making complex products work better for people."
+          description="I bring together systems thinking, hands-on design, and a strong understanding of how people use products in the real world. I enjoy untangling complex problems, finding opportunities to improve the experience, and working with teams to turn those ideas into something useful."
         />
       </Reveal>
       <div className="capability-grid">
@@ -201,8 +201,8 @@ export function ProcessSection() {
         <SectionHeading
           id="process-title"
           eyebrow="How I work"
-          title="A flexible process, anchored in evidence."
-          description="The shape of the work changes with the problem. The principles stay: learn, align, make, test, and keep improving."
+          title="Understand the problem before jumping to solutions."
+          description="I like to get to the bottom of a problem before deciding what to build. I look for patterns, question assumptions, and work closely with the team to find solutions that make sense for both the people using the product and the business behind it."
         />
       </Reveal>
       <div className="process-line">

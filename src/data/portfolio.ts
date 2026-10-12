@@ -7,7 +7,7 @@ export const profile = {
   introduction:
     "I turn complex systems into clear, useful products. My work brings together UX strategy, product thinking, and emerging AI to improve the way people work.",
   summary:
-    "I’m a product and UX designer with a background in industrial design and more than 20 years building products across physical and digital spaces. Over the past two years, I’ve focused on AI-driven product design—especially complex healthcare and B2B workflows. I partner with product, engineering, and stakeholders to make AI useful, usable, and trustworthy.",
+    "I’m a product and UX designer with a background in industrial design and more than 20 years building products across physical and digital spaces. Since 2023, I’ve focused on AI-driven product design—especially complex healthcare and B2B workflows. I partner with product, engineering, and stakeholders to make AI useful, usable, and trustworthy.",
   linkedin:
     "https://www.linkedin.com/in/ezequiel-dominguez-pace-1029839/",
   behance: "https://www.behance.net/Zeque-Dominguez-Pace",
@@ -218,7 +218,7 @@ export const projects = [
     evidence:
       "The deck reports that 80% found talking to the virtual assistant comfortable, 80% felt safe doing so, and 87% said completing their request was simpler than with a human. The test sample size is not stated in the source.",
     href: "https://www.behance.net/Zeque-Dominguez-Pace",
-    visual: "care",
+    visual: "chat",
     accent: "mint",
   },
   {
@@ -238,7 +238,7 @@ export const projects = [
     evidence:
       "The deck reports that 70% found it difficult to find online shoes they had seen in a store or ad, 45% had trouble understanding site categories, and 55% wanted to try shoes before buying. These are discovery findings, not post-launch impact.",
     href: "https://www.behance.net/Zeque-Dominguez-Pace",
-    visual: "marketplace",
+    visual: "fashion",
     accent: "pink",
   },
   {
@@ -265,44 +265,44 @@ export const projects = [
 
 export const capabilities = [
   {
-    title: "Product direction",
-    description: "Problem framing, prioritization, roadmaps, and product strategy.",
+    title: "Seeing the bigger picture",
+    description: "Connecting user needs, business goals, and product opportunities to help teams focus on the right problems.",
     icon: "compass",
   },
   {
-    title: "Research & validation",
-    description: "Interviews, surveys, usability studies, journey maps, and synthesis.",
+    title: "Understanding users",
+    description: "Getting close to people's needs and frustrations through research, observation, and testing assumptions.",
     icon: "search",
   },
   {
-    title: "Complex workflows",
-    description: "Healthcare, B2B platforms, scheduling, and operational tools.",
+    title: "Untangling complexity",
+    description: "Making complicated workflows easier to understand, especially in healthcare, B2B platforms, and operational tools.",
     icon: "workflow",
   },
   {
-    title: "AI product design",
-    description: "Useful, understandable AI recommendations and assisted workflows.",
+    title: "Making AI useful",
+    description: "Exploring how AI can support better decisions and simplify work without making the experience harder to understand.",
     icon: "sparkles",
   },
   {
-    title: "Design systems",
-    description: "Reusable patterns, consistency, and collaboration with engineering.",
+    title: "Building consistency",
+    description: "Creating design systems and reusable patterns that make products easier to design, build, and maintain.",
     icon: "layers",
   },
   {
-    title: "Cross-functional leadership",
-    description: "Bringing product, engineering, clients, and stakeholders into alignment.",
+    title: "Bringing people together",
+    description: "Working closely with product, engineering, and stakeholders to challenge ideas, find common ground, and move toward better solutions.",
     icon: "users",
   },
 ] as const;
 
 export const processSteps = [
-  { number: "01", title: "Discover", text: "Learn the people, context, and constraints." },
-  { number: "02", title: "Define", text: "Turn evidence into a focused problem and direction." },
-  { number: "03", title: "Ideate", text: "Explore options with the team and stakeholders." },
-  { number: "04", title: "Prototype", text: "Make the strongest ideas tangible and testable." },
-  { number: "05", title: "Validate", text: "Use feedback and testing to refine the experience." },
-  { number: "06", title: "Ship & iterate", text: "Support delivery, learn from use, and improve." },
+  { number: "01", title: "Get the full picture", text: "I dig into user needs, existing workflows, and business goals to understand what's really happening." },
+  { number: "02", title: "Find the real problem", text: "I connect the dots, challenge assumptions, and narrow things down to what will make the biggest difference." },
+  { number: "03", title: "Explore possibilities", text: "I bring different perspectives together, challenge the obvious solutions, and look for better ways forward." },
+  { number: "04", title: "Make ideas real", text: "I turn concepts into tangible experiences so we can explore the details, uncover gaps, and see what holds up." },
+  { number: "05", title: "Learn by testing", text: "I put ideas in front of users, pay attention to what works and what doesn't, and use those insights to make better decisions." },
+  { number: "06", title: "Make it better", text: "I work with the team to get the solution out the door, learn from real usage, and keep improving it over time." },
 ] as const;
 
 export const toolsAndMethods = [
@@ -322,54 +322,59 @@ export const toolsAndMethods = [
 
 export const faqs = [
   {
-    question: "Can you tell me about yourself?",
+    question: "Tell me about yourself.",
     answer:
-      "I’m Ezequiel, a product and UX designer with a background in industrial design and more than 20 years building products across physical and digital spaces. Over the past two years, I’ve focused on AI-driven products, especially complex healthcare and B2B workflows. I enjoy making emerging technology useful and trustworthy in people’s day-to-day work.",
+      "I’m a UX designer with experience designing complex enterprise software, improving workflows, and translating business challenges into user-centered solutions. Currently, I work at Homecare Homebase, where I focus on scheduling experiences for healthcare professionals and schedulers, including data visualization, workflow optimization, and AI-powered recommendations. Over time, I’ve become increasingly interested in the strategic side of UX: connecting user needs with business goals, influencing product decisions, and helping teams build better products. I’m now looking for an opportunity where I can combine hands-on design with leadership, contribute to the product vision, and help establish a strong UX practice.",
   },
   {
-    question: "Can you walk me through your experience?",
+    question: "Walk me through your experience.",
     answer:
-      "My experience spans industrial and product design, brand management, UX research, digital product design, and project leadership. Most recently at Kopius, working with HCHB, I’ve focused on AI-powered scheduling, clinician workflows, and decision support. Before that, I worked across Shop Your Way and fintech at Making Sense, conversational design at IBM iX, and e-commerce and brand work at Grimoldi.",
+      "My experience has centered on designing digital products that solve complex problems for users. At Homecare Homebase, I work on healthcare software, focusing on scheduling workflows, clinician autonomy, and tools that help schedulers make better decisions through data visualization and intelligent recommendations. A big part of my role is understanding how users work, identifying friction in existing experiences, and translating those insights into practical design solutions. I’ve also worked extensively with design systems and interactive prototyping, helping create more consistent and scalable experiences. These experiences have strengthened my ability to work across product, engineering, and business teams, and have motivated me to take the next step into a leadership role where I can guide design direction and help other designers grow.",
   },
   {
-    question: "What accomplishment are you most proud of?",
+    question: "What is your biggest accomplishment?",
     answer:
-      "I’m proud of helping shape AI-enabled healthcare work from problem definition through implementation-ready design. That includes smart scheduling, clinician workflows, and contributions to Care+ clinical recommendations. The materials I’ve shared don’t include verified business-outcome metrics, so I prefer to discuss the work and its scope rather than overstate results.",
-  },
-  {
-    question: "What are your strengths?",
-    answer:
-      "My profile highlights turning ambiguity into product direction, optimizing complex workflows, and connecting business goals with user needs and technical possibilities. I’m also experienced in research and usability testing, and in aligning product, engineering, clients, and stakeholders around what to build and why.",
-  },
-  {
-    question: "What is one area you’re working to improve?",
-    answer:
-      "The career information I shared doesn’t identify a personal weakness, and I don’t want to invent one. I’m happy to discuss a real development area and how I’m addressing it in a conversation.",
-  },
-  {
-    question: "What kind of role are you looking for?",
-    answer:
-      "I’m interested in senior or lead product-design work where UX strategy, complex systems, design systems, or AI-enabled workflows matter. Healthcare and B2B are especially familiar contexts, and I value close collaboration with product and engineering.",
+      "One of my most meaningful accomplishments has been contributing to the improvement of complex scheduling workflows in healthcare software. These workflows involve a significant amount of information, multiple constraints, and decisions that directly affect how efficiently people can do their jobs. My contribution has been to rethink how information is presented, simplify interactions, and explore ways to help users make better decisions through clearer visualizations and AI-powered recommendations. What makes this work meaningful to me is that it goes beyond making an interface look better; it’s about reducing cognitive load, improving operational efficiency, and creating a better experience for people who rely on these tools every day. It has reinforced my belief that good UX should create measurable value for both users and the business.",
   },
   {
     question: "Why are you looking for a new opportunity?",
     answer:
-      "My profile doesn’t state a reason for changing roles, so I don’t want to assume one. I’m glad to talk about the kind of product-design challenge and team that would be a strong mutual fit.",
+      "I’ve learned a lot in my current role, particularly about designing complex enterprise products and working through challenging user and business problems. At this point in my career, I’m looking for an opportunity to expand my impact beyond individual design initiatives and contribute more directly to product strategy, team development, and the overall UX vision. I’m especially interested in organizations that recognize the value of UX and want to make it a stronger part of their product development process. A lead position feels like a natural next step because it would allow me to combine my design experience with my ability to align stakeholders, guide decisions, and help build a more mature design practice.",
+  },
+  {
+    question: "What are your strengths?",
+    answer:
+      "I would say my main strengths are problem-solving, systems thinking, and the ability to connect user needs with business objectives. I’m comfortable working with complex products where there isn’t an obvious solution, and I enjoy breaking down complicated workflows into experiences that are easier to understand and use. I also think strategically about consistency and scalability, which is why design systems and reusable patterns are important to me. Another strength is collaboration: I enjoy working with product managers, engineers, and stakeholders to challenge assumptions, explore alternatives, and find solutions that are both useful for users and feasible for the business. I believe these strengths are particularly valuable in a lead role, where success depends on both design quality and the ability to influence decisions.",
+  },
+  {
+    question: "What are your weaknesses?",
+    answer:
+      "One area I’ve been working on is learning when to stop exploring and move toward a decision. Because I enjoy solving complex problems, I can sometimes spend more time than necessary evaluating alternatives or refining details. I’ve learned that not every decision needs the same level of exploration, especially when timelines are tight. Now, I try to define success criteria earlier, prioritize the riskiest assumptions, and align with stakeholders on how much validation is needed before moving forward. This helps me balance design quality with speed and keeps the team focused on outcomes rather than perfection.",
+  },
+  {
+    question: "Why should we hire you?",
+    answer:
+      "You should hire me because I bring a combination of strong UX problem-solving skills, experience with complex enterprise products, and a mindset focused on connecting design decisions to business outcomes. I’m comfortable navigating ambiguity, understanding complicated workflows, and collaborating with different disciplines to turn challenges into actionable solutions. Beyond the design execution itself, I understand that a lead designer needs to create alignment, establish direction, communicate rationale, and help the team make better decisions. I would bring a practical, user-centered approach to the role while helping strengthen the design process, improve collaboration, and demonstrate the value of UX through tangible product improvements.",
+  },
+  {
+    question: "What kind of role are you looking for?",
+    answer:
+      "I’m looking for a Lead UX Designer role where I can combine hands-on design work with strategic thinking and team leadership. I enjoy staying close to the product, understanding users, exploring solutions, and working with engineers and product managers to bring ideas to life. At the same time, I want to help define the UX vision, establish standards and processes, mentor other designers, and influence product decisions earlier in the development cycle. Ideally, I’d join an organization where UX is evolving or becoming more strategic, because I enjoy helping teams mature their design practices and demonstrating how better user experiences can contribute to business success.",
   },
   {
     question: "How would your coworkers describe you?",
     answer:
-      "I can’t speak for colleagues, but my work history describes me as a bridge between design, engineering, and stakeholders. It also reflects close partnership with product teams, client communication, and collaborative workshops.",
+      "I think my coworkers would describe me as collaborative, thoughtful, and someone who brings structure to complex problems. I’m usually the person who tries to understand the bigger picture before jumping into solutions, and I like asking questions that help the team challenge assumptions and see problems from different perspectives. They would probably also say that I’m curious, open to feedback, and willing to explore new approaches, particularly when it comes to technology and AI. At the same time, I care about moving things forward, so I try to turn discussions into clear decisions and actionable next steps rather than getting stuck in endless debate.",
   },
   {
-    question: "Would you say you’re a team player?",
+    question: "What would you do in your first 30/60/90 days?",
     answer:
-      "Yes. My experience includes close partnership with product and engineering, client co-creation workshops, and cross-functional teams. I’ve also worked to align people around scope, constraints, priorities, and delivery.",
+      "In my first 30 days, I’d focus on listening and learning: understanding the product, business goals, users, team structure, existing design processes, and the main challenges facing the organization. By day 60, I’d identify the most important opportunities, validate them with stakeholders and users where possible, and align with the team on priorities and a practical UX improvement plan. I’d also evaluate how design collaborates with product and engineering and identify opportunities to improve that process. By day 90, I’d aim to have delivered or advanced an initial high-impact initiative, established clear design priorities, and defined ways to measure progress. My goal would be to build trust first, understand the context, and then create momentum through focused, measurable improvements rather than introducing change for its own sake.",
   },
   {
-    question: "What would you focus on in your first 30, 60, and 90 days?",
+    question: "Are you a team player?",
     answer:
-      "I’d start by understanding the users, business goals, current workflows, and constraints. Then I’d align with the team on the highest-value problem and use research, prototyping, and validation to shape a practical direction. That reflects the discovery-to-delivery approach documented in my experience; the exact plan would depend on the team and product.",
+      "Absolutely. I see UX as a collaborative discipline because the best solutions rarely come from design working in isolation. I enjoy partnering with product managers, engineers, researchers, and business stakeholders to understand different perspectives and find the right balance between user needs, technical constraints, and business priorities. I also believe being a team player doesn’t mean agreeing with everyone; it means being able to challenge ideas respectfully, explain your reasoning, listen to feedback, and commit to a shared decision. In a lead role, I think collaboration becomes even more important because your responsibility is not only to deliver good design but also to help the entire team work more effectively and achieve better outcomes together.",
   },
 ] as const;
 
