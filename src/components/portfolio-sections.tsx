@@ -14,6 +14,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ContactForm } from "@/components/contact-form";
+import { Icons } from "@/components/icons";
 import { ProjectArtwork } from "@/components/project-artwork";
 import { Reveal } from "@/components/reveal";
 import {
@@ -307,7 +308,11 @@ export function Footer() {
     <footer className="site-footer section-shell">
       <a className="footer-brand" href="#home">EDP<span>© {new Date().getFullYear()}</span></a>
       <p>Designed with intention. Built for the people using it.</p>
-      <div><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight aria-hidden="true" /></a><a href={profile.behance} target="_blank" rel="noreferrer">Behance <ArrowUpRight aria-hidden="true" /></a><a href="#home">Back to top <ArrowUpRight aria-hidden="true" /></a></div>
+      <div>
+        <a href={profile.linkedin} target="_blank" rel="noreferrer"><Icons.linkedin className="social-icon" aria-hidden="true" />LinkedIn <ArrowUpRight aria-hidden="true" /></a>
+        <a href={profile.behance} target="_blank" rel="noreferrer"><Icons.behance className="social-icon" aria-hidden="true" />Behance <ArrowUpRight aria-hidden="true" /></a>
+        <a href="#home">Back to top <ArrowUpRight aria-hidden="true" /></a>
+      </div>
     </footer>
   );
 }
