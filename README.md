@@ -45,7 +45,7 @@ Never commit `.env.local` or secrets. The supplied LinkedIn export, project PDFs
 3. Add `NEXT_PUBLIC_SITE_URL` in the site’s environment-variable settings, then redeploy.
 4. Confirm FormSubmit’s one-time activation email, production contact delivery, and social preview metadata before sharing the site.
 
-This project is published from the personal repository `Zeque77/claude-portfolio-zk`. The starter template’s Git history is retained only in a local backup branch and is not part of the published `main` branch.
+The intended personal repository is `Zeque77/claude-portfolio-zk`. The starter template’s Git history is retained only in a local backup branch and is not part of the clean `main` branch.
 
 ## Project structure
 
