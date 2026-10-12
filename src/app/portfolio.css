@@ -1292,7 +1292,7 @@ textarea {
 .status-error { color: var(--accent-pink); }
 .contact-form-shell { display: none; }
 
-.site-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 28px 40px; border-top: 1px solid var(--border); }
+.site-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 28px 90px; border-top: 1px solid var(--border); }
 .site-footer > p { margin: 0; color: var(--muted-foreground); font-size: 10px; }
 .footer-brand { display: flex; align-items: baseline; gap: 10px; font-size: 12px; font-weight: 700; text-decoration: none; }
 .footer-brand span { color: var(--muted-foreground); font-size: 9px; font-weight: 400; }
@@ -1415,7 +1415,7 @@ textarea {
   .contact-copy h2 { font-size: clamp(2.15rem, 9.5vw, 3rem); }
   .contact-actions a { min-height: 42px; font-size: 11px; }
   .contact-form { padding: 18px; }
-  .site-footer { align-items: flex-start; flex-direction: column; gap: 15px; padding-block: 24px 100px; }
+  .site-footer { align-items: flex-start; flex-direction: column; gap: 15px; padding-block: 24px 118px; }
   .site-footer > div { flex-wrap: wrap; gap: 14px; }
   .faq-widget { right: 12px; bottom: 12px; }
   .faq-launcher { min-height: 48px; padding-inline: 15px; font-size: 11px; }
