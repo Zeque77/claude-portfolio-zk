@@ -42,3 +42,6 @@ next-env.d.ts
 # Private source material supplied for portfolio writing; never publish it.
 /Data/
 /data/
+
+# A nested working copy of the portfolio repository; deploy from the root app.
+/portfolio/
