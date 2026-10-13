@@ -1292,17 +1292,18 @@ textarea {
 .status-error { color: var(--accent-pink); }
 .contact-form-shell { display: none; }
 
-.site-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 28px 90px; border-top: 1px solid var(--border); }
-.site-footer > p { margin: 0; color: var(--muted-foreground); font-size: 10px; }
+.site-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px 20px; padding-block: 28px 90px; border-top: 1px solid var(--border); }
+.site-footer > p { grid-column: 2; grid-row: 1; margin: 0; color: var(--muted-foreground); font-size: 10px; text-align: center; }
 .footer-brand { display: flex; align-items: baseline; gap: 10px; font-size: 12px; font-weight: 700; text-decoration: none; }
+.site-footer > .footer-brand { grid-column: 1; grid-row: 1 / span 2; }
 .footer-brand span { color: var(--muted-foreground); font-size: 9px; font-weight: 400; }
-.site-footer > div { display: flex; gap: 16px; }
+.site-footer > div { grid-column: 2; grid-row: 2; display: flex; justify-content: center; gap: 16px; }
 .site-footer > div a { display: inline-flex; align-items: center; gap: 4px; color: var(--muted-foreground); font-size: 10px; text-decoration: none; }
 .site-footer > div a:hover { color: var(--foreground); }
 .site-footer > div svg { width: 12px; height: 12px; }
 .site-footer > div a .social-icon { width: 13px; height: 13px; }
 
-.faq-widget { position: fixed; z-index: 60; right: 24px; bottom: 23px; display: flex; align-items: flex-end; flex-direction: column; gap: 12px; }
+.faq-widget { position: fixed; z-index: 60; right: 24px; bottom: 63px; display: flex; align-items: flex-end; flex-direction: column; gap: 12px; }
 .faq-launcher { display: inline-flex; min-height: 52px; align-items: center; justify-content: center; gap: 10px; padding: 0 18px; border: 1px solid color-mix(in srgb, var(--primary) 65%, transparent); border-radius: 999px; background: var(--primary); color: var(--primary-foreground); box-shadow: 0 12px 38px rgb(0 0 0 / 23%); cursor: pointer; font-size: 12px; font-weight: 650; transition: transform 180ms ease, box-shadow 180ms ease; }
 .faq-launcher:hover { transform: translateY(-3px); box-shadow: 0 16px 45px rgb(0 0 0 / 30%); }
 .faq-launcher svg { width: 18px; height: 18px; }
@@ -1415,9 +1416,11 @@ textarea {
   .contact-copy h2 { font-size: clamp(2.15rem, 9.5vw, 3rem); }
   .contact-actions a { min-height: 42px; font-size: 11px; }
   .contact-form { padding: 18px; }
-  .site-footer { align-items: flex-start; flex-direction: column; gap: 15px; padding-block: 24px 118px; }
-  .site-footer > div { flex-wrap: wrap; gap: 14px; }
-  .faq-widget { right: 12px; bottom: 12px; }
+  .site-footer { display: flex; align-items: flex-start; flex-direction: column; gap: 15px; padding-block: 24px 118px; }
+  .site-footer > p,
+  .site-footer > div { align-self: center; }
+  .site-footer > div { flex-wrap: wrap; justify-content: center; gap: 14px; }
+  .faq-widget { right: 12px; bottom: 52px; }
   .faq-launcher { min-height: 48px; padding-inline: 15px; font-size: 11px; }
   .faq-panel { width: min(370px, calc(100vw - 24px)); max-height: calc(100svh - 78px); }
   .faq-body { max-height: calc(100svh - 205px); }
