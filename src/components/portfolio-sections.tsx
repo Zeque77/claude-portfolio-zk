@@ -17,6 +17,8 @@ import { ContactForm } from "@/components/contact-form";
 import { Icons } from "@/components/icons";
 import { ProjectArtwork } from "@/components/project-artwork";
 import { Reveal } from "@/components/reveal";
+import { ClinicianCaseStudy } from "@/components/clinician-case-study";
+import { WorkforceSchedulingCaseStudy } from "@/components/workforce-scheduling-case-study";
 import {
   capabilities,
   certifications,
@@ -147,9 +149,13 @@ export function ProjectsSection() {
                     <p className="project-role"><span>Contribution</span>{project.role}</p>
                   </div>
                 </details>
-                <a className="project-link" href={project.href} target="_blank" rel="noreferrer">
-                  {project.href === profile.behance ? "Explore related work on Behance" : "View project on Behance"} <ArrowUpRight aria-hidden="true" />
-                </a>
+                <div className="project-actions">
+                  {project.number === "01" && <ClinicianCaseStudy />}
+                  {project.number === "03" && <WorkforceSchedulingCaseStudy />}
+                  <a className="project-link" href={project.href} target="_blank" rel="noreferrer">
+                    {project.href === profile.behance ? "Explore related work on Behance" : "View project on Behance"} <ArrowUpRight aria-hidden="true" />
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </Reveal>

@@ -1,6 +1,6 @@
-import { Activity, CircleCheck, Sparkles } from "lucide-react";
+import { Activity, CircleCheck, MapPin, Sparkles } from "lucide-react";
 
-type ProjectVisual = "dashboard" | "chart" | "care" | "marketplace" | "fintech" | "system" | "chat" | "fashion";
+type ProjectVisual = "dashboard" | "chart" | "care" | "scheduling-map" | "marketplace" | "fintech" | "system" | "chat" | "fashion";
 
 export function ProjectArtwork({ visual }: { visual: ProjectVisual }) {
   return (
@@ -33,6 +33,28 @@ export function ProjectArtwork({ visual }: { visual: ProjectVisual }) {
           <div className="care-orbit orbit-two" />
           <div className="care-card"><Sparkles /><span /><i /><i /></div>
           <div className="care-chip"><CircleCheck /> Recommendation ready</div>
+        </div>
+      )}
+      {visual === "scheduling-map" && (
+        <div className="scheduling-preview">
+          <div className="scheduling-map">
+            <div className="map-road map-road-one" />
+            <div className="map-road map-road-two" />
+            <div className="map-road map-road-three" />
+            <div className="map-area map-area-one" />
+            <div className="map-area map-area-two" />
+            <MapPin className="map-pin map-pin-one" />
+            <MapPin className="map-pin map-pin-two" />
+            <MapPin className="map-pin map-pin-three" />
+            <MapPin className="map-pin map-pin-four" />
+            <span className="map-route" />
+          </div>
+          <div className="scheduling-workers">
+            <div className="workers-heading"><b /><i /></div>
+            <div className="worker-card"><span /><div><b /><i /></div><em /></div>
+            <div className="worker-card"><span /><div><b /><i /></div><em /></div>
+            <div className="worker-card"><span /><div><b /><i /></div><em /></div>
+          </div>
         </div>
       )}
       {visual === "chat" && (

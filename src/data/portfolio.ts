@@ -127,21 +127,21 @@ export const projects = [
   },
   {
     number: "03",
-    title: "AI-assisted care workflows",
-    category: "AI · Healthcare · HCHB",
+    title: "Beyond the Calendar: Rethinking Workforce Scheduling",
+    category: "Healthcare · HCHB · Web Scheduling",
     summary:
-      "Smart scheduling, clinician workflows, and clinical recommendations designed around real operational needs.",
+      "A new map-and-list scheduling experience that turns workforce capacity, geography, and visit reassignment into connected workflows.",
     challenge:
-      "Home-health operations involve complex staffing, routing, and workload decisions. AI capabilities need to fit existing work and be understandable to the people acting on them.",
+      "The initial request was to reproduce the legacy multi-calendar experience in Web Scheduling. But schedulers used those calendars for several distinct jobs: comparing worker capacity, planning geographic coverage, redistributing visits after call-outs, and responding to urgent visits.",
     approach:
-      "The profile describes end-to-end design, usability testing, feature prioritization, and close partnership with product, engineering, and stakeholders.",
+      "I explored alternatives to the legacy interaction, using scheduler and clinical-manager focus groups to understand the scenarios. After evaluating six directions, I proposed a functional map paired with a worker-organized list.",
     designed:
-      "Smart scheduling and routing concepts, AI-assisted experiences for schedulers and clinicians, and contributions to Care+ clinical recommendations. No quantified outcome is claimed in the supplied materials.",
-    role: "UX/UI design · project leadership",
-    methods: "Discovery · usability testing · AI recommendations and explainability",
+      "A proposed map view for geographic awareness and worker capacity, paired with a list view for visit selection and bulk reassignment. Both views share date, worker selection, filters, and capacity context. The direction was well received by schedulers and accepted into the 2027 roadmap; implementation is pending.",
+    role: "UX exploration · interaction design · product direction",
+    methods: "Scheduler and clinical-manager focus groups · concept exploration · map/list workflows",
     evidence: "",
     href: "https://www.behance.net/Zeque-Dominguez-Pace",
-    visual: "care",
+    visual: "scheduling-map",
     accent: "pink",
   },
   {
