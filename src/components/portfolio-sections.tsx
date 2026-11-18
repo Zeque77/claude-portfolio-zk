@@ -152,9 +152,11 @@ export function ProjectsSection() {
                 <div className="project-actions">
                   {project.number === "01" && <ClinicianCaseStudy />}
                   {project.number === "03" && <WorkforceSchedulingCaseStudy />}
-                  <a className="project-link" href={project.href} target="_blank" rel="noreferrer">
-                    {project.href === profile.behance ? "Explore related work on Behance" : "View project on Behance"} <ArrowUpRight aria-hidden="true" />
-                  </a>
+                  {project.number !== "03" && (
+                    <a className="project-link" href={project.href} target="_blank" rel="noreferrer">
+                      {project.href === profile.behance ? "Explore related work on Behance" : "View project on Behance"} <ArrowUpRight aria-hidden="true" />
+                    </a>
+                  )}
                 </div>
               </CardContent>
             </Card>
